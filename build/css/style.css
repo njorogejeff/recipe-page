@@ -444,6 +444,14 @@ video {
   display: none;
 }
 
+* {
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -544,6 +552,139 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .table {
   display: table;
+}
+
+.h-\[2px\] {
+  height: 2px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.bg-darkCharcoal {
+  --tw-bg-opacity: 1;
+  background-color: hsl(24 5% 18% / var(--tw-bg-opacity));
+}
+
+.bg-roseWhite {
+  --tw-bg-opacity: 1;
+  background-color: hsl(330 100% 98% / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-youngSerif {
+  font-family: 'Young Serif', serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.text-darkCharcoal {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity));
+}
+
+.text-darkRaspberry {
+  --tw-text-opacity: 1;
+  color: hsl(332 51% 32% / var(--tw-text-opacity));
+}
+
+.text-nutmegBrown {
+  --tw-text-opacity: 1;
+  color: hsl(14 45% 36% / var(--tw-text-opacity));
+}
+
+.text-wengeBrown {
+  --tw-text-opacity: 1;
+  color: hsl(30 10% 34% / var(--tw-text-opacity));
+}
+
+.marker\:text-xs *::marker {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.marker\:text-darkRaspberry *::marker {
+  color: hsl(332 51% 32% );
+}
+
+.marker\:text-xs::marker {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.marker\:text-darkRaspberry::marker {
+  color: hsl(332 51% 32% );
 }
